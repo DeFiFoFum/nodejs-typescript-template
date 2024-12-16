@@ -20,4 +20,13 @@ module.exports = {
     ],
     semi: ['error', 'always'],
   },
+  ignores: [
+    'node_modules',
+    'dist',
+    '.env',
+    'yarn-error.log',
+    '.vscode',
+    'coverage',
+    '**/*.js'
+  ],
 };
